@@ -8,4 +8,128 @@
 
 body{
     margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+header h3{
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.head-btn{
+    color: var(--Dark-02, #424242);
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.head-btn:hover{
+    cursor: pointer;
+    color: #FF900E;
+}
+
+.head-btn::after{
+    cursor: pointer;
+    color: #424242;
+}
+
+nav a:hover{
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 862px;
+    height: 225px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.banner-btn{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-btn:hover{
+    background: transparent;
+    color: #FF900E;
+    border: solid #FF900E 2px;
+    cursor: pointer;
+}
+
+.banner-btn::after{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+}
+
+header img{
+    border-radius: 8px;
+    width: 1440px;
+    height: 700px;
 }
