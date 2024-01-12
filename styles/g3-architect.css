@@ -9,7 +9,6 @@
 body{
     margin: auto;
     width: 100%;
-    height: 100%;
 }
 
 header{
@@ -152,4 +151,65 @@ header img{
     width: 1440px;
     height: 700px;
     margin-bottom: 45px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    body{
+        margin: auto;
+        width: 100%;
+    }
+
+    header{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 150px;
+    }
+
+    header img{
+        border-radius: 8px;
+        width: 450px;
+        height: 245px;
+        margin-bottom: 45px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+    body{
+        margin: auto;
+        width: 100%;
+    }
+
+    header{
+        padding: 20px;
+    }
+
+    header img{
+        border-radius: 8px;
+        width: 720px;
+        height: 350px;
+        margin-bottom: 45px;
+        margin: auto;
+        display: flex;
+    }
 }
