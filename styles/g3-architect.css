@@ -71,11 +71,6 @@ nav li a{
     line-height: 26px;
 }
 
-.head-btn:hover{
-    cursor: pointer;
-    color: #FF900E;
-}
-
 .head-btn::after{
     cursor: pointer;
     color: #424242;
@@ -83,6 +78,7 @@ nav li a{
 
 nav a:hover{
     cursor: pointer;
+    color: #FF900E;
 }
 
 .banner{
@@ -289,7 +285,7 @@ header img{
         margin: auto;
         display: flex;
     }
-    
+
     .first{
         width: 100%;
         height: 708px;
